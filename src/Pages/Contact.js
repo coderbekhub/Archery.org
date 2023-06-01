@@ -1,7 +1,12 @@
 import React from 'react'
+import Header from '../Components/Home/Header'
+import Nav from '../Components/Home/Nav'
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <section>
+      <Header />
+      <Nav />
+    </section>
   )
 }
