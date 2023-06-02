@@ -113,6 +113,7 @@ a {
         background-color: $body-bg;
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
         p{
           cursor: pointer;
           color: $black;
@@ -144,45 +145,198 @@ a {
 
 // NAV START
 
+// .navSection {
+//   height: 45px;
+//   background: $white;
+//   .nav {
+//     position: relative;
+//     .navList {
+//       padding: 12px 0;
+//       position: absolute;
+//       top: 0;
+//       right: 0;
+//       display: flex;
+//       align-items: center;
+//       li {
+//         .navLink {
+//           margin-left: 15px;
+//           font-weight: 600;
+//           font-size: 16px;
+//           line-height: 11px;
+//           color: $navBlue;
+//         }
+//       }
+
+//       .navToggle {
+//         position: fixed;
+//         top: 30px;
+//         right: 40px;
+//         cursor: pointer;
+//         display: none;
+//         div {
+//           width: 2.5rem;
+//           height: 0.2rem;
+//           margin: 0.4rem;
+//           transition: 0.4s ease-in;
+//         }
+//       }
+//     }
+//   }
+
+//   .langList {
+//     padding-left: 0;
+//     padding-right: 10px;
+//     margin-right: 19px;
+//     .langWrap{
+//       position: relative;
+//       transition: 0.3s ease-in;
+//       display: flex;
+//       align-items: center;
+      
+//       h5{
+//         padding: 0;
+//         margin: 0;
+//         cursor: pointer;
+//         font-weight: 500;
+//         font-size: 15px;
+//         color: $white;
+//         margin-top: 14px;
+//       }
+  
+//       .wrap{
+//         z-index: 5;
+//         font-weight: 500;
+//         font-size: 12px;
+//         transition: 0.5s ease-in;
+//         display: none;
+//         width: 110px;
+//         position: absolute;
+//         top: 34px;
+//         left: -30px;
+//         padding: 10px;
+//         background-color: $body-bg;
+//         border-radius: 10px;
+//         box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        
+//         p{
+//           cursor: pointer;
+//           color: $black;
+//           margin-bottom: 10px;
+//           margin-left: 20px;
+//         }
+//         p:hover {
+//           transition: 0.3s ease-in;
+//           color: $black;
+//         }
+//       }
+  
+//       &:hover{
+//         .wrap{
+//           transition: 0.5s ease-in;
+//           display: block;
+//         }
+//       }
+//     }
+//   }
+
+// }
+
+
 .navSection {
-  height: 45px;
-  background: $white;
   .nav {
     position: relative;
-    .navList {
-      padding: 12px 0;
-      position: absolute;
-      top: 0;
-      right: 0;
+  }
+  .nav-link{
+    color: $navBlue;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 40px;
+  }
+  
+  .langList {
+    display: none;
+    padding-left: 0;
+    // padding-right: -10px;
+    .langWrap{
+      position: relative;
+      transition: 0.3s ease-in;
       display: flex;
       align-items: center;
-      li {
-        .navLink {
-          margin-left: 15px;
-          font-weight: 600;
-          font-size: 16px;
-          line-height: 11px;
-          color: $navBlue;
+      
+      h5{
+        cursor: pointer;
+        margin: 0;
+        // gap: 5px;
+        color: $white;
+      }
+  
+      .wrap{
+        transition: 0.5s ease-in;
+        display: none;
+        width: 120px;
+        position: absolute;
+        right: -10px;
+        top: 30px;
+        padding: 10px;
+        background-color: $body-bg;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        
+        p{
+          cursor: pointer;
+          color: $black;
+          margin-bottom: 10px;
+          margin-left: 20px;
+        }
+        p:hover {
+          transition: 0.3s ease-in;
+          color: $black;
         }
       }
-
-      .navToggle {
-        position: fixed;
-        top: 30px;
-        right: 40px;
-        cursor: pointer;
-        display: none;
-        div {
-          width: 2.5rem;
-          height: 0.2rem;
-          margin: 0.4rem;
-          background: #fff;
-          transition: 0.4s ease-in;
+  
+      &:hover{
+        .wrap{
+          transition: 0.5s ease-in;
+          display: block;
         }
       }
     }
   }
+  
+  .navList {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    // margin: 0 auto;
+    a {
+      margin-left: 15px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 11px;
+      color: $navBlue;
+    }
+  }
+  
+  .navToggle {
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    cursor: pointer;
+    display: none;
+    div {
+      width: 2.5rem;
+      height: 0.2rem;
+      margin: 0.4rem;
+      background: $white;
+      transition: 0.4s ease-in;
+    }
+  }
+  
 }
+
 
 // HERO START
 
