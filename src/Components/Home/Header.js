@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <section className='headerSection'>
       <div className="container">
-        <div className='d-flex d-flex align-items-center justify-content-between'>
+        <div className='Brands d-flex d-flex align-items-center justify-content-between'>
           <div className='headerBrand d-flex align-items-center'>
             <a href="/" className='d-flex align-items-center'>
               <img src={ArcheryBrand} alt="..." />
@@ -23,7 +23,7 @@ export default function Header() {
           <div className="headerContent d-flex align-items-center">
             <a href="tel:+998977770777">+998 97 777 07 77</a>
 
-            <ul className='langList'>
+            <ul className='langList resNoneLang'>
                 <li className='langWrap d-flex align-items-center'>
                   <h5 className='nav-link d-flex align-items-center'>
                     {getLanguage() === 'en' ? <>Eng</> : getLanguage() === 'ru' ? <>Рус</> : <>O'z</>}
