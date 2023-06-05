@@ -26,14 +26,14 @@ export default function Nav() {
       <div className="container">
         <nav className='nav'>
           <ul className={active}>
-              <li><Link className='navLink' to='/'> {getText('home')} </Link></li>
-              <li><Link className='navLink' to='/federation'>НАША ФЕДЕРАЦИЯ</Link></li>
-              <li><Link className='navLink' to='/gallary'>ГАЛЕРЕЯ</Link></li>
-              <li><Link className='navLink' to='/musobaqa'>СОРЕВНОВАНИЕ</Link></li>
-              <li><Link className='navLink' to='/news'>НОВОСТИ</Link></li>
-              <li><Link className='navLink' to='/contact'>СВЯЗЬ</Link></li>
+            <li><Link className='navLink' to='/'> {getText('home')} </Link></li>
+            <li><Link className='navLink' to='/federation'>НАША ФЕДЕРАЦИЯ</Link></li>
+            <li><Link className='navLink' to='/gallary'>ГАЛЕРЕЯ</Link></li>
+            <li><Link className='navLink' to='/musobaqa'>СОРЕВНОВАНИЕ</Link></li>
+            <li><Link className='navLink' to='/news'>НОВОСТИ</Link></li>
+            <li><Link className='navLink' to='/contact'>СВЯЗЬ</Link></li>
             
-              <ul className='langList'>
+            <ul className='langList'>
                 <li className='langWrap d-flex align-items-center'>
                   <h5 className='nav-link d-flex align-items-center'>
                     {getLanguage() === 'en' ? <>English</> : getLanguage() === 'ru' ? <>Русский</> : <>O'zbek</>}
@@ -44,7 +44,7 @@ export default function Nav() {
                     <p onClick={() => changeLanguage('en')}>English</p>
                   </div>
                 </li>
-              </ul>
+            </ul>
           </ul>
           <div onClick={navToggle} className={toggleIcon}>
             <div className='line1'></div>
