@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import NewsImg from '../../img/newsImg.png'
+import AboutUsImg from '../../img/aboutUsImg.png'
 
 export default function HomeNews() {
   return (
@@ -13,7 +14,7 @@ export default function HomeNews() {
           </Link>
         </div>
         <div className='row HomeNewsContent'>
-          <div className='col-12 col-md-6 col-xl-4'>
+          <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
             <img src={NewsImg} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
@@ -21,7 +22,7 @@ export default function HomeNews() {
               <span>12 марта 2023 г.</span>
             </div>
           </div>
-          <div className='col-12 col-md-6 col-xl-4'>
+          <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
             <img src={NewsImg} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
@@ -29,7 +30,7 @@ export default function HomeNews() {
               <span>12 марта 2023 г.</span>
             </div>
           </div>
-          <div className='col-12 col-md-6 col-xl-4'>
+          <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
             <img src={NewsImg} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
@@ -37,7 +38,7 @@ export default function HomeNews() {
               <span>12 марта 2023 г.</span>
             </div>
           </div>
-          <div className='col-12 col-md-6 col-xl-4'>
+          <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
             <img src={NewsImg} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
@@ -45,7 +46,7 @@ export default function HomeNews() {
               <span>12 марта 2023 г.</span>
             </div>
           </div>
-          <div className='col-12 col-md-6 col-xl-4'>
+          <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
             <img src={NewsImg} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
@@ -53,13 +54,27 @@ export default function HomeNews() {
               <span>12 марта 2023 г.</span>
             </div>
           </div>
-          <div className='col-12 col-md-6 col-xl-4'>
+          <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
             <img src={NewsImg} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
               <span>12 марта 2023 г.</span>
             </div>
+          </div>
+        </div>
+
+        {/* ABOUT US */}
+
+        <div className='aboutUsContent row '>
+          <div className='aboutUsInfo col-12 col-md-6'>
+            <img src={AboutUsImg} alt="..." />
+          </div>
+          <div className='aboutUsInfo col-12 col-md-6'>
+            <h2>Немного о нас</h2>
+            <p className='test'>Стрельба из лука – олимпийский вид спорта, в котором спортсмены соревнуются в точности стрельбы из лука. Победителем в стрельбе из лука является спортсмен или команда, которая наберёт больше очков, согласно правилам соревнований. Соревнования по стрельбе из лука проводятся как между мужчинами, так и между женщинами. </p>
+            <p>Соревнования по стрельбе из лука проводятся как на открытом воздухе, так и в помещении. Стрельба на соревнованиях ведется сериями по 3 или 6 стрел. </p>
+            <p>Соревнования по стрельбе из лука проводятся как на открытом воздухе, так и в помещении. Стрельба на соревнованиях ведется сериями по 3 или 6 стрел. </p>
           </div>
         </div>
       </div>

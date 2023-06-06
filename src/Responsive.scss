@@ -19,6 +19,41 @@ $body-bg : #f7f7f7;
       }
     }
   }
+
+    // ABOUT US START
+
+    .HomeNewsSection {
+      .aboutUsContent {
+        margin: 30px 0 !important;    
+        .aboutUsInfo {
+          text-align: center;
+          img {
+            width: 100% !important;
+            height: auto !important;
+            object-fit: cover;
+            margin-bottom: 30px !important;
+          }
+    
+          h2 {
+            font-size: 22px;
+            line-height: 96.4%;
+            align-items: center;
+            margin-bottom: 18px;
+            color: $black;
+            display: block;
+          }
+  
+          p {
+            font-size: 12px;
+            width: auto !important;
+            text-align: center;
+            display: block;
+          }
+        }
+      }
+    }
+
+  
 }
 
 @media (max-width: 628px) {
@@ -48,7 +83,7 @@ $body-bg : #f7f7f7;
     .HomeNewsContent {
       div {
         img {
-          width: 90% !important;
+          width: 100% !important;
         }
 
         .moreNewsContent {
@@ -56,8 +91,9 @@ $body-bg : #f7f7f7;
         }
 
         .moreNews {
-          margin-right: 80px;
+          margin-right: 170px;
           text-align: center;
+          margin: 0 auto;
         }
 
         span {
@@ -67,7 +103,6 @@ $body-bg : #f7f7f7;
       }
     }
   }
-
 }
 
 @media (max-width: 615px) {
@@ -311,6 +346,46 @@ $body-bg : #f7f7f7;
           line-height: 10px;
           color: $grey;
         }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 660px) {
+  // ABOUT US START
+
+  .aboutUsContent {
+    margin: 50px 0 !important;    
+    .aboutUsInfo {
+      text-align: center;
+      img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 96.4%;
+        align-items: center;
+        color: $black;
+        display: block;
+        margin-bottom: 30px;
+      }
+
+      p {
+        text-align: left;
+        margin: 0 auto;
+        width: 450px !important;
+        display: block;
+        font-weight: 600;
+        font-size: 16 px;
+        line-height: 122.4%;
+        color: #3B3B3B;
+        margin-bottom: 20px;
       }
     }
   }
