@@ -5,6 +5,27 @@ export default function Partner() {
     <section className='partnerSection'>
       <div className="container">
         <h2>Партнеры</h2>
+
+        <div className='row'>
+          <div className=''>
+            <img src="" alt="" />
+          </div>
+          <div className=''>
+            <img src="" alt="" />
+          </div>
+          <div className=''>
+            <img src="" alt="" />
+          </div>
+          <div className=''>
+            <img src="" alt="" />
+          </div>
+          <div className=''>
+            <img src="" alt="" />
+          </div>
+          <div className=''>
+            <img src="" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   )

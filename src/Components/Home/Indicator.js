@@ -15,19 +15,19 @@ export default function Indicator() {
 
           <div className='indicatorContent text-center row'>
             <h2>Почему нужно выбрать нас?</h2>
-            <div className='col-md-3 col-6'>
+            <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={22} duration={2} delay={0} />+</h1>
               <h2>Филиалы в городе</h2>
             </div>
-            <div className='col-md-3 col-6'>
+            <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={278} duration={2} delay={0} />+</h1>
               <h2>Лояльные клиенты</h2>
             </div>
-            <div className='col-md-3 col-6'>
+            <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={800} duration={2} delay={0} />+</h1>
               <h2>Услуги, предоставляемыу</h2>
             </div>
-            <div className='col-md-3 col-6'>
+            <div className='col-12 col-md-3 '>
               <h1><CountUp start={0} end={32} duration={2} delay={0} />+</h1>
               <h2>Лучшие эксперты</h2>
             </div>

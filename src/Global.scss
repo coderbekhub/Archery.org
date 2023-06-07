@@ -18,6 +18,11 @@ $body-bg : #f7f7f7;
   overflow-x: hidden;
 }
 
+body {
+  scrollbar-color: red yellow;
+
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -385,16 +390,27 @@ a {
   background-position: center;
 
   .pTop {
-    padding-top: 450px;
+    // padding-top: 450px;
     position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+
   }
 
   .blur {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
     bottom: 0;
-    left: 0px;
+    left: 0;
     background: linear-gradient(180.03deg, rgba(26, 33, 73, 0) 0.03%, #18235C 99.97%), rgba(24, 35, 92, 0.5);
   }
 
@@ -414,7 +430,7 @@ a {
     p {
       width: 500px;
       font-weight: 400;
-      font-size: 8.25623px;
+      font-size: 12px;
       line-height: 143.9%;
       color: $white;
       text-align: center;
@@ -442,6 +458,7 @@ a {
       margin-bottom: 40px;
     }
     div {
+      margin-bottom: 20px;
       padding: 25px 25px 0 25px;
       width: 250px;
       height: auto;
@@ -477,6 +494,7 @@ a {
   width: 100%;
   height: 250px;
   background: #18235C;
+  margin-bottom: 100px;
 
   h2 {
     font-weight: 700;
@@ -489,3 +507,145 @@ a {
   }
 }
 
+// GALLARY START
+
+.gallarySection {
+  margin-bottom: 100px;
+  .galleryTitle {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 96.4%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: $black;
+    margin-bottom: 35px;
+  }
+
+  .gallaryContent {
+    .gallaryInfo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 650px;
+        height: 557px;
+        margin-bottom: 30px;
+        object-fit: cover;
+        margin-right: 90px;
+      }
+
+      .gallaryInfo2 {
+        display: flex;
+        flex-direction: column;
+        img {
+          object-fit: cover;
+          width: 350px;
+          height: 264px;
+        }
+        img:nth-child(1) {
+          margin-bottom: 30px;
+        }
+      }
+    }
+
+    .gallaryInfos {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      object-fit: cover;
+      img {
+        margin-right: 85px;
+      }
+    }
+
+  }
+}
+
+
+
+// ATLETS START
+
+.atletsSection {
+  margin-bottom: 100px;
+  h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 96.4%;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    color: $black;
+    margin-bottom: 40px;
+  }
+
+  .atletsContent {
+    div {
+      cursor: pointer;
+      transform: scale(1);
+      transition: all .5s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+      img {
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 107.9%;
+        color: $black;
+      }
+    }
+  }
+}
+
+// GOOGLE MAP
+
+.googleMap {
+  width: 100%;
+  height: 300px;
+}
+
+// FOOTER START 
+
+.footerNavSection {
+  background: #18235C;
+  padding: 20px 0;
+  .footerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+      display: flex;
+      align-items: center;
+      img {
+        width: 65px;
+        height: auto;
+        margin-right: 10px;
+      }
+      h2 {
+        width: 277px;
+        font-size: 15px;
+        line-height: 21px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $white;
+        display: block;
+      }
+    }
+
+    .footerList {
+      display: flex;
+      align-items: center;
+      .FooterLink {
+        margin-right: 30px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 10px;
+        color: $white;
+      }
+    }
+  }
+}
