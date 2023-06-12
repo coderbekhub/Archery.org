@@ -13,7 +13,6 @@ import FooterNav from './Home/FooterNav'
 export default function Home() {
   return (
     <>
-    <h2>Lorem, ipsum.</h2>
       <Header />
       <Nav />
       <Hero />
