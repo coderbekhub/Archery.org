@@ -20,7 +20,6 @@ $body-bg : #f7f7f7;
 
 body {
   scrollbar-color: red yellow;
-
 }
 
 .container {
@@ -37,7 +36,6 @@ a {
 }
 
 // HEADER START
-
 .headerSection {
   background: $navBlue;
   height: 65px;
@@ -246,12 +244,9 @@ a {
       transition: 0.4s ease-in;
     }
   }
-  
 }
 
-
 // HERO START
-
 .heroSection {
   background: url(./img/heroImg.png);
   background-repeat: no-repeat;
@@ -263,7 +258,6 @@ a {
 }
 
 // HOME NEWS START
-
 .HomeNewsSection {
   .HomeNewsText {
     display: flex;
@@ -341,7 +335,6 @@ a {
   }
 
   // ABOUT US START
-
   .aboutUsContent {
     margin: 100px 0;    
     .aboutUsInfo {
@@ -379,7 +372,6 @@ a {
 }
 
 // INDICATOR START
-
 .indicatorSection {
   width: 100%;
   height: 100vh;
@@ -390,7 +382,6 @@ a {
   background-position: center;
 
   .pTop {
-    // padding-top: 450px;
     position: absolute;
     top: 0;
     right: 0;
@@ -402,7 +393,6 @@ a {
     align-items: center;
     flex-direction: column;
     z-index: 2;
-
   }
 
   .blur {
@@ -508,7 +498,6 @@ a {
 }
 
 // GALLARY START
-
 .gallarySection {
   margin-bottom: 100px;
   .galleryTitle {
@@ -562,10 +551,7 @@ a {
   }
 }
 
-
-
 // ATLETS START
-
 .atletsSection {
   margin-bottom: 100px;
   h2 {
@@ -602,14 +588,12 @@ a {
 }
 
 // GOOGLE MAP
-
 .googleMap {
   width: 100%;
   height: 300px;
 }
 
 // FOOTER START 
-
 .footerNavSection {
   background: #18235C;
   padding: 20px 0;
@@ -651,7 +635,6 @@ a {
 }
 
 // FOOTER BOTTOM START 
-
 .footerBottom {
   padding: 30px 0;
   background: #242E64;
@@ -661,7 +644,6 @@ a {
     justify-content: center;
     margin: 0 auto;
     div {
-      
       h2 {
         font-weight: 700;
         font-size: 18px;
