@@ -112,3 +112,13 @@ body {
   color: #ffffff9f;
   transition: all ease-in-out .3s;
 }
+
+@media (max-width: 360px) {
+  .mySwiper {
+    background: none;
+    position: relative;
+    top: 100px;
+    cursor: pointer;
+  }
+  
+}
