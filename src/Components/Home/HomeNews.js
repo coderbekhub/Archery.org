@@ -1,6 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import NewsImg from '../../img/newsImg.png'
+import NewsImg from '../../img/atletsNews/atletNews1.jpg'
+import NewsImg2 from '../../img/atletsNews/atletNews2.jpg'
+import NewsImg3 from '../../img/atletsNews/atletNews3.jpg'
+import NewsImg4 from '../../img/atletsNews/atletNews4.jpg'
+import NewsImg5 from '../../img/atletsNews/atletNews5.jpg'
+import NewsImg6 from '../../img/atletsNews/atletNews6.jpg'
+import NewsImg7 from '../../img/atletsNews/atletNews7.jpg'
+import NewsImg8 from '../../img/atletsNews/atletNews8.jpg'
+import NewsImg9 from '../../img/atletsNews/atletNews9.jpg'
+import NewsImg10 from '../../img/atletsNews/atletNews10.jpg'
+import NewsImg11 from '../../img/atletsNews/atletNews11.jpg'
 import AboutUsImg from '../../img/aboutUsImg.png'
 
 export default function HomeNews() {
@@ -15,7 +25,7 @@ export default function HomeNews() {
         </div>
         <div className='row HomeNewsContent'>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg} alt="..." />
+            <img src={NewsImg2} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
@@ -23,7 +33,7 @@ export default function HomeNews() {
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg} alt="..." />
+            <img src={NewsImg11} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
@@ -31,7 +41,7 @@ export default function HomeNews() {
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg} alt="..." />
+            <img src={NewsImg8} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
@@ -39,7 +49,7 @@ export default function HomeNews() {
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg} alt="..." />
+            <img src={NewsImg6} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
@@ -47,7 +57,7 @@ export default function HomeNews() {
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg} alt="..." />
+            <img src={NewsImg5} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
@@ -55,7 +65,7 @@ export default function HomeNews() {
             </div>
           </div>
           <div className='HomeNewsAnimated col-12 col-md-6 col-xl-4'>
-            <img src={NewsImg} alt="..." />
+            <img src={NewsImg4} alt="..." />
             <h2>Интересный конкурс, в котором отобрали юных снайперов</h2>
             <div className='moreNewsContent'>
               <Link className='moreNews' to='/'>Подробнее</Link>
@@ -68,7 +78,7 @@ export default function HomeNews() {
 
         <div className='aboutUsContent row '>
           <div className='aboutUsInfo col-12 col-md-6'>
-            <img src={AboutUsImg} alt="..." />
+            <img src={NewsImg3} alt="..." />
           </div>
           <div className='aboutUsInfo col-12 col-md-6'>
             <h2>Немного о нас</h2>

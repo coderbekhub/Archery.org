@@ -305,7 +305,7 @@ a {
       }
       img {
         width: 370px;
-        height: auto;
+        height: 246px;
         border-radius: 3px;
         object-fit: cover;
         margin-bottom: 10px;
@@ -569,20 +569,30 @@ a {
   .atletsContent {
     div {
       cursor: pointer;
-      transform: scale(1);
-      transition: all .5s ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-      }
-      img {
-        margin-bottom: 20px;
-      }
-
+      margin: 0 auto;    
+      text-align: center;
+      margin-bottom: 10px;  
       p {
         font-weight: 700;
         font-size: 15px;
         line-height: 107.9%;
         color: $black;
+      }
+    }
+
+    .atletsAva {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background-color: #ffffffb2;
+      padding-top: 20px;
+      transform: scale(1);
+
+      img {
+        &:hover {
+          transition: all .5s ease-in-out;
+          transform: scale(1.2);
+        }
       }
     }
   }
